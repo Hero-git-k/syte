@@ -1,0 +1,94 @@
+:root{
+	--color1: #05b1b1;
+	--color2: #52339a;
+}
+
+header,
+footer,
+section{
+	padding: 100px 0;
+}
+
+header{
+	padding: 200px 0;
+}
+
+header,
+footer {
+	background: #a90329;
+background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
+background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
+background-size: contain;
+}
+
+.itd_play {
+background-color: var(--color1);
+width: 60px;
+height: 60px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+margin: 30px auto;
+transition: all 0, 2e ease;
+}
+
+.itd_play:hover {
+background-color: var(--color2);
+}
+
+.itd_traingle {
+margin-right: -3px;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 0 10px 20px;
+border-color: transparent transparent transparent var(--bs-white);
+}
+
+.btn-itd {
+display: block;
+max-width: 200px;
+margin: 0 auto;
+padding: 8px 30px;
+color: var(--bs-white);
+background-color: var(--color2);
+}
+
+.btn-itd:hover {
+color: var(--bs-white);
+background-color: var(--color1);
+}
+
+
+
+ .about, .sheduie, .author, .buy{
+ 	background-color: #eee;
+ }
+.about i {
+	font-size: 25px;
+	color: var(--color2);
+}
+.itd_circle{
+margin: 0 auto 15px;
+width: 70px;
+height: 70px;
+border: 3px solid var(--color2);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.line{
+	width: 100px;
+	height: 3px;
+	background-color: var(--color1) ;
+	margin: 15px auto 30px;
+}
+.forwhom h5{
+	padding: 50px;
+	border:3px solid var(--color1) ;
+}
